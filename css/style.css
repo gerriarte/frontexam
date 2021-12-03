@@ -1,0 +1,406 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Be Vietnam Pro', sans-serif; 
+    max-width: 100%;
+}
+
+body, html {
+    width: 100%;
+}
+
+
+/*Header*/
+
+.head {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 40px;
+    margin-bottom: 60px;
+}
+
+
+.mobilemenu {
+    display: none;
+}
+
+
+#logo {
+    padding-top: 10px;
+}
+
+ul {
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+ul option {
+    font-weight: 500;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+button {
+    height: 44px;
+    width: 134px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #F3603B;
+    border: 0px   
+}
+
+/*Header*/
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    max-width: 100%;
+
+} 
+
+h1{
+   padding-bottom: 20px;
+   font-weight: 700;
+   color: #232C50;
+   margin-left: 100px;
+   margin-right: 100px;
+   width: 50%;
+}
+
+.header-title p{
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 50%;
+}
+
+
+
+.header-title {
+    padding-top: 90px;  
+    padding-right: 20px;
+}
+
+.header-title button {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+
+.banner img {
+    margin-right: 90px;
+}
+
+/*Sobre nosotros - diferencia*/
+
+.diferencial {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.diferencial h2 {
+    font-size: 36px;
+    color: #232851;
+   
+}
+
+.left-dif p {
+    font-size: 16px;
+    padding-right: 30px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+.dif-options button {
+    width: 69px;
+    position: absolute;
+}
+
+.dif-options h3 {
+    margin-left: 80px;
+}
+
+.dif-options p {
+    margin-left: 80px;
+}
+
+.dif-options {
+    margin-bottom: 30px;
+}
+
+/*Testimonios*/
+
+.testimonios {
+    max-width: 100%;
+}
+.testimonios h2 {
+    font-weight: 700;
+    text-align: center;
+    color: #242E53;
+}
+
+.testimonios-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 50px;
+    padding: 60px;
+    
+}
+
+.ali {
+    background-color: #fafafa;
+    margin: 10px;
+    padding: 30px;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+}
+
+.ali img {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: -50px;
+}
+
+.ali p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #B9B9C1;
+    margin-top: 10px;
+}
+
+.comenzar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+/*Call to Action*/
+
+.cta {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 224px;
+    background-color: #F3613C;
+    margin-top: 50px;
+    width: 100%;
+    padding-right: 40px;
+}
+
+.cta h2 {
+    margin-top: 90px;
+    padding-left: 40px;
+    margin-right: 50px;
+    color: white;
+}
+
+.cta button {
+    margin-top: 90px;
+    background-color: white;
+    color: #F3603B;
+    
+}
+
+/*footer*/
+
+footer {
+    background-color: #1E1E26;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: 247px;
+    padding: 90px;
+}
+
+.footer-menu ul {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    top: -40px;
+}
+
+.logoredes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.redesociales {
+    margin-top: 20px;
+}
+
+.redesociales img {
+    padding-left: 10px;
+}
+
+.suscripcion input {
+    width: 210px;
+    height: 44px;
+    border-radius: 40px;
+}
+
+.suscripcion button {
+    height: 42px;
+    width: 63px;
+}
+
+@media  (max-width: 375px) {
+
+
+    .mobilemenu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-items: center;
+          
+    }
+  
+    #menu {
+        display: none;
+    }
+
+    #logomobile img {
+        display: flex;
+        padding-right: 60px;
+    }
+
+    #mobileburguer {
+        display: flex;
+
+    }
+
+    .head {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        justify-items: inherit;
+        width: 100%;
+       
+    }
+    .head button {
+        display: none;
+    }
+    #logo {
+        display: none;
+    }
+    
+    .header-title {
+        padding: 10px;
+
+    } 
+    
+    
+    .header  {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+
+    .banner img {
+        width: 300px;
+        align-items: center;
+    
+    }
+
+   .header-title h1 {
+       width: 90%;
+       margin-left: 30px;
+   }
+
+   .header-title p {
+       margin-left: 33px;
+       margin-right: 80px;
+       width: 80%;
+   }
+
+   .header-title button {
+    margin-left: 28px;
+    margin-right: 39px;
+    margin-top: 30px;
+   }
+
+    .diferencial {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-right: 0px; 
+        margin-left: -10px
+    }
+
+    .left-dif {
+        margin-bottom: 50px;
+    }
+
+    .testimonios-cards {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .cta {
+        width: 100%;
+    }
+
+    .cta h2 {
+        position: relative;
+        top: -50px;
+    }
+
+    footer {
+        width: 500px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .redesociales {
+        margin-bottom: 60px;
+    }
+
+    .footer-menu {
+        text-align: center;
+    }
+
+    .suscripcion  button{
+       margin-left: 60px;
+       margin-top: 20px
+    }
+}
+
+@media (max-width:1440px){
+    
+ .mobilemenu {
+     display: none;
+ }
+
+ @media (min-width:375px) {
+
+ }
+} 
